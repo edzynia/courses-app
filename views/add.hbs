@@ -1,0 +1,35 @@
+<h2>Add new course</h2>
+<form action='/add' method='POST'>
+  <div class='input-field'>
+    <input id='title' name='title' type='text' class='validate' required />
+    <label for='title'>Course name</label>
+    <span
+      class='helper-text'
+      data-error='here should be Name'
+      data-success='right'
+    ></span>
+  </div>
+
+  <div class='input-field'>
+    <input id='price' name='price' type='number' class='validate' required />
+    <label for='price'>Course price</label>
+    <span
+      class='helper-text'
+      data-error='here should be price'
+      data-success='right'
+    ></span>
+  </div>
+
+  <div class='input-field'>
+    <input id='img' name='img' type='text' class='validate' required />
+    <label for='img'>Image URL</label>
+    <span
+      class='helper-text'
+      data-error='here should be URL'
+      data-success='right'
+    ></span>
+  </div>
+  <input type='hidden' name='_csrf' value='{{csrf}}' />
+
+  <button class='btn pink darken-3'>Add Course</button>
+</form>

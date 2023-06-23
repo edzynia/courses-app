@@ -1,0 +1,71 @@
+.nav-wrapper {
+    padding: 0 3rem;
+}
+
+.price {
+    font-size: 1.7rem;
+}
+
+.course {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.course h1 {
+    margin-bottom: 2rem;
+
+}
+
+.course img {
+    max-width: 400px;
+    height: auto;
+}
+
+.course .price.big {
+    font-size: 2rem;
+}
+
+.card-action.actions {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.form-cart {
+    margin-top: 0.5rem;
+}
+
+.cards-my {
+    display:inline-block;
+    margin: 50px;
+    width: auto;
+}
+
+.auth {
+    padding-top: 1rem;
+}
+
+.tabs .tab a {
+    color: #673748b3;
+    background-color: transparent;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #763a49;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(234, 226, 237, 0.2);
+    outline: none;
+}
+
+.alert{
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #940d0d;
+}

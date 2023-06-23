@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Angular",
+    "price": "2000",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+    "id": "bf9ffb48-b65b-430a-9f40-b92ba61cec66"
+  },
+  {
+    "title": "React",
+    "price": "1000",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "id": "19c7f1b5-1578-4218-9659-83a5421a948b"
+  },
+  {
+    "title": "Redux ",
+    "price": "1000",
+    "img": "https://d4jyn86spyrm8.cloudfront.net/redux.png",
+    "id": "a201d4f5-735f-45e5-8ffc-a4389c066c15"
+  },
+  {
+    "title": "Apollo Client ",
+    "price": "2000",
+    "img": "https://user-images.githubusercontent.com/146856/124335690-fc7ecd80-db4f-11eb-93fa-dcf4469bb07b.png",
+    "id": "8fcc571e-19db-47bd-a7ad-0e82884dc19f"
+  },
+  {
+    "title": "GraphQl",
+    "price": "1500",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--M5dHch5L--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/800/1%2AR6WHuWI0M9I4t-og2yNq-w.png",
+    "id": "c03569f3-266b-45ba-a9e5-c3162adbacea"
+  },
+  {
+    "title": "Express",
+    "price": "1200",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+    "id": "9a58b7ab-cb19-49b1-bea6-18d1d09cb2f3"
+  },
+  {
+    "title": "REST API",
+    "price": "1000",
+    "img": "https://d12m9erqbesehq.cloudfront.net/wp-content/uploads/2016/04/30152042/event-smart-rest-api.png",
+    "id": "1a07f634-32d9-46fb-91be-04fa4675175b"
+  }
+]

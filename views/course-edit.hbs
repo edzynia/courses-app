@@ -1,0 +1,65 @@
+<h2>Edit {{course.title}}</h2>
+<form action='/courses/edit' method='POST' class='course-form'>
+
+  <div class='input-field'>
+    <input
+      id='title'
+      name='title'
+      type='text'
+      class='validate'
+      value='{{course.title}}'
+      required
+    />
+    <label for='title'>Course name</label>
+    <span
+      class='helper-text'
+      data-error='here should be Name'
+      data-success='right'
+    ></span>
+  </div>
+
+  <div class='input-field'>
+    <input
+      id='price'
+      name='price'
+      type='number'
+      class='validate'
+      value='{{course.price}}'
+      required
+    />
+    <label for='price'>Course price</label>
+    <span
+      class='helper-text'
+      data-error='here should be price'
+      data-success='right'
+    ></span>
+  </div>
+
+  <div class='input-field'>
+    <input
+      id='img'
+      name='img'
+      type='text'
+      class='validate'
+      value='{{course.img}}'
+      required
+    />
+    <label for='img'>Image URL</label>
+    <span
+      class='helper-text'
+      data-error='here should be URL'
+      data-success='right'
+    ></span>
+  </div>
+  <input name='id' type='hidden' value='{{course.id}}' />
+  <button type='submit' class='btn lime darken-2'>Edit</button>
+  <input type='hidden' name='_csrf' value='{{csrf}}' />
+
+</form>
+
+<form action='/courses/remove' method='POST'>
+  <input type='hidden' name='id' value='{{course.id}}' />
+  <button class='btn red accent-1'>Delete</button>
+  <input type='hidden' name='_csrf' value='{{csrf}}' />
+
+</form>
